@@ -9,7 +9,7 @@
     
     var cfg = {
         scrollDuration: 800, // smoothscroll duration
-        mailChimpURL: 'https://netlify.us17.list-manage.com/subscribe/post?u=161e6d988755309d6ae9fa139&amp;id=668de2ae8b' // mailchimp url
+        mailChimpURL: 'https://gmail.us20.list-manage.com/subscribe/post?u=33fca72481c2b332bcaf2192b&amp;id=793df1783b' // mailchimp url
     },
 
     $WIN = $(window);
