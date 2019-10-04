@@ -1,0 +1,23 @@
+{
+  "name": "lacrystalagency",
+  "version": "1.0.0",
+  "description": "Website build for La Crystal Agency",
+  "main": "index.html",
+  "dependencies": {
+    "eslint": "^6.5.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/goldenpencil/lacrystalagency.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/goldenpencil/lacrystalagency/issues"
+  },
+  "homepage": "https://github.com/goldenpencil/lacrystalagency#readme"
+}
