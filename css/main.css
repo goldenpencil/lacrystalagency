@@ -1398,7 +1398,7 @@ input::-moz-focus-inner {
 }
 .header-nav a,
 .header-nav a:visited {
-  color: rgba(255, 255, 255, 0.5);
+  /* color: rgba(255, 255, 255, 0.5); */
 }
 .header-nav a:hover,
 .header-nav a:focus,
