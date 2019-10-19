@@ -138,10 +138,10 @@
             </div> <!-- end home-content -->
 
             <ul class="home-sidelinks">
-                <li><a class="smoothscroll" href="#about">About<span>who we are</span></a></li>
-                <li><a class="smoothscroll" href="#services">Services<span>what we do</span></a></li>
-                <li><a class="smoothscroll" href="#contact">Contact<span>get in touch</span></a></li>
-                <li><a class="smoothscroll" href="#works">Gallery<span>our gallery</span></a></li>
+                <li><a class="#about" href="index.html#about">About<span>who we are</span></a></li>
+                <li><a class="#services" href="index.html#services">Services<span>what we do</span></a></li>
+                <li><a class="#contact" href="index.html#contact">Contact<span>get in touch</span></a></li>
+                <li><a class="#services" href="index.html#works">Gallery<span>our gallery</span></a></li>
                 <li><a href="/contact.html">Bookings<span>book us</span></a></li>
             </ul>
             <!-- end home-sidelinks -->
@@ -174,27 +174,27 @@
                   <h3>Don't be shy. Say Hello!</h3>
                   <h4>Contact us today, and get reply with in 24 hours!</h4>
                   <fieldset>
-                    <input type ="text" placeholder="Your name" tabindex="1" required autofocus>
+                    <input type ="text" placeholder="Your name" name="name" tabindex="1" required autofocus>
                   </fieldset>
               
-                <fieldset><input placeholder="Your Email Address" type="email" tabindex="2" required>
+                <fieldset><input placeholder="Your Email Address" type="email" name="_replyto" tabindex="2" required>
                   </fieldset>
                   <fieldset>
-                    <input placeholder="Your Phone Number" type="tel" tabindex="3" required>
+                    <input placeholder="Your Phone Number" type="tel" name="_tel" tabindex="3" required>
                   </fieldset>
                   <fieldset>
-                    <textarea placeholder="Type your Message Here...." tabindex="5" required></textarea>
+                    <textarea placeholder="Type your Message Here...." name="message" tabindex="5" required></textarea>
                   </fieldset>
                   <fieldset>
-                    <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+                    <button type="submit" id="contact-submit" name="submit" data-submit="...Sending">Submit</button>
                   </fieldset>
                 </form>
 
-                <form action="https://formspree.io/mknwwwjv" method="POST">
+                <!-- <form action="https://formspree.io/mknwwwjv" method="POST">
                     <input type="text" name="name">
                     <input type="email" name="_replyto">
                     <input type="submit" value="Send">
-                  </form>
+                  </form> -->
             </div>
 
 
