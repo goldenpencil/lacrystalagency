@@ -646,6 +646,7 @@ fieldset {
 input[type="email"],
 input[type="number"],
 input[type="search"],
+input[type="subject"],
 input[type="text"],
 input[type="tel"],
 input[type="url"],
@@ -1401,7 +1402,7 @@ input::-moz-focus-inner {
   /* color: rgba(255, 255, 255, 0.5); */
 }
 .header-nav a:hover,
-.header-nav a:focus,
+.header-nav a:focus,9
 .header-nav a:active {
   color: white;
 }
