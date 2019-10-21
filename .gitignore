@@ -1,7 +1,8 @@
 node_modules
+.services.html
 
 # Local Netlify folder
 .netlify
 
 # Hide form-css folder
-form-css
+.form-css
