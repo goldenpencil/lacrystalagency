@@ -209,7 +209,7 @@
     /* Masonry
         * ---------------------------------------------------- */
 
-        // Image error was fixed by adding "percentPosition: true to the code"
+    // Image error was fixed by adding "percentPosition: true to the code"
     var clMasonryFolio = function () {
 
         var containerBricks = $('.masonry');
