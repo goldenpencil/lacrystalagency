@@ -189,27 +189,6 @@
 
     //    /* Masonry
     //     * ---------------------------------------------------- */ 
-    //     var clMasonryFolio = function () {
-
-    //         var containerBricks = $('.masonry');
-
-    //         containerBricks.imagesLoaded(function () {
-    //             containerBricks.masonry({
-    //                 itemSelector: '.masonry__brick',
-    //                 resize: true
-    //             });
-    //         });
-
-    //         // layout Masonry after each image loads
-    //         containerBricks.imagesLoaded().progress( function() {
-    //             containerBricks.masonry('layout');
-    //         });
-    //     };
-
-    /* Masonry
-        * ---------------------------------------------------- */
-
-    // Image error was fixed by adding "percentPosition: true to the code"
     var clMasonryFolio = function () {
 
         var containerBricks = $('.masonry');
@@ -218,6 +197,8 @@
             containerBricks.masonry({
                 itemSelector: '.masonry__brick',
                 percentPosition: true,
+                columnWidth: '.grid-sizer',
+                itemSelector: '.grid-item',
                 resize: true
             });
         });
@@ -227,6 +208,28 @@
             containerBricks.masonry('layout');
         });
     };
+
+    /* Masonry
+        * ---------------------------------------------------- */
+
+    // // Image error was fixed by adding "percentPosition: true to the code"
+    // var clMasonryFolio = function () {
+
+    //     var containerBricks = $('.masonry');
+
+    //     containerBricks.imagesLoaded(function () {
+    //         containerBricks.masonry({
+    //             itemSelector: '.masonry__brick',
+    //             percentPosition: true,
+    //             resize: true
+    //         });
+    //     });
+
+    //     // layout Masonry after each image loads
+    //     containerBricks.imagesLoaded().progress(function () {
+    //         containerBricks.masonry('layout');
+    //     });
+    // };
 
 
     /* slick slider
