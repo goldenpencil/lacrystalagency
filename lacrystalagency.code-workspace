@@ -21,6 +21,7 @@
 			"statusBar.foreground": "#15202b"
 		},
 		"peacock.color": "#42b883",
-		"liveServer.settings.port": 5501
+		"liveServer.settings.port": 5501,
+		"vscode-w3cvalidation.javaHome": "C:\\Program Files\\Java\\jdk-12.0.2"
 	}
 }
