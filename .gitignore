@@ -8,4 +8,4 @@ node_modules
 .form-css
 
 # Hide form page
-form.html
+.form.html
